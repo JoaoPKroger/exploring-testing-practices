@@ -44,8 +44,10 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: https://github.com/python-humanize/humanize
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: https://andrehora.github.io/testminer/#python-humanize/humanize
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: Uma prática de teste observada no Humanize é a organização dos testes por funcionalidade, em uma pasta separada do código principal. O TestMiner identifica cinco arquivos de teste e o uso da biblioteca pytest. Na pasta tests, arquivos como test_number.py, test_time.py e test_filesize.py agrupam os testes de números, datas e tamanhos de arquivos, respectivamente.
+
+Essa organização facilita encontrar os testes relacionados a uma alteração. Por exemplo, ao modificar a formatação de tamanhos de arquivos, o desenvolvedor pode consultar test_filesize.py para verificar os resultados esperados. Isso facilita a manutenção e ajuda a identificar regressões, quando uma mudança prejudica um comportamento que já funcionava.
